@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="start"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/pokemonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokemon Name"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/frontImageView"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:src="@drawable/loading" />
+
+        <ImageView
+            android:id="@+id/rearImageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@id/frontImageView"
+            android:layout_alignEnd="@id/frontImageView"
+            android:layout_margin="4dp"
+            android:src="@drawable/loading" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:id="@+id/pokeball1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/poke_ball"
+            android:layout_margin="4dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <LinearLayout
+            android:id="@+id/pokeball2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/great_ball"
+            android:layout_margin="4dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <LinearLayout
+            android:id="@+id/pokeball3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ultra_ball"
+            android:layout_margin="4dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <LinearLayout
+            android:id="@+id/pokeball4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/master_ball"
+            android:layout_margin="4dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pokemonCharacteristics"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Characteristics"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"/>
+</LinearLayout>

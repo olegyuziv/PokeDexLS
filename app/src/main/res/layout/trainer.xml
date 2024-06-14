@@ -1,0 +1,445 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.TrainerV">
+
+    <TextView
+        android:id="@+id/tvTrainerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainer Name"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money: $0"
+        android:textSize="18sp"
+        android:layout_below="@id/tvTrainerName"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Items"
+        android:textSize="20sp"
+        android:layout_below="@id/tvMoney"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/itemsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvItems"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:id="@+id/llPokeball"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivPokeball"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/poke_ball"/>
+
+            <TextView
+                android:id="@+id/tvPokeballCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llSuperball"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivSuperball"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/great_ball"/>
+
+            <TextView
+                android:id="@+id/tvSuperballCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llUltraball"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivUltraball"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ultra_ball"/>
+
+            <TextView
+                android:id="@+id/tvUltraballCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMasterball"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivMasterball"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/master_ball"/>
+
+            <TextView
+                android:id="@+id/tvMasterballCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPokemonCaptured"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokemons Captured"
+        android:textSize="20sp"
+        android:layout_below="@id/itemsLayout"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/pokemonCapturedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPokemonCaptured"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:weightSum="3"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPokemonImage1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/loading"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvPokemonName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pokemon Name"
+                        android:textSize="16sp"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/ivCaptureBall1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/poke_ball"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPokemonImage2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/loading"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvPokemonName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pokemon Name"
+                        android:textSize="16sp"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/ivCaptureBall2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/poke_ball"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPokemonImage3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/loading"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvPokemonName3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pokemon Name"
+                        android:textSize="16sp"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/ivCaptureBall3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/poke_ball"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPokemonImage4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/loading"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvPokemonName4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pokemon Name"
+                        android:textSize="16sp"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/ivCaptureBall4"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/poke_ball"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPokemonImage5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/loading"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvPokemonName5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pokemon Name"
+                        android:textSize="16sp"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/ivCaptureBall5"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/poke_ball"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPokemonImage6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/loading"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvPokemonName6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pokemon Name"
+                        android:textSize="16sp"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/ivCaptureBall6"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/poke_ball"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="#E0E0E0">
+
+        <Button
+            android:id="@+id/btnPokedex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pokedex"/>
+
+        <Button
+            android:id="@+id/btnTrainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Trainer"/>
+
+        <Button
+            android:id="@+id/btnStore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Store"/>
+    </LinearLayout>
+
+</RelativeLayout>
