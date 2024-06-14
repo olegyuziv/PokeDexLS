@@ -1,0 +1,243 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.StoreV">
+
+    <TextView
+        android:id="@+id/tvStoreTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money: $0"
+        android:textSize="18sp"
+        android:layout_below="@id/tvStoreTitle"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutStoreItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMoney"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:id="@+id/llPokeball"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="16dp"
+                android:clickable="true"
+                android:onClick="onPokeballClick"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tvPokeball"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pokeball"
+                    android:textSize="18sp"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/ivPokeball"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/poke_ball"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="Pokeball"/>
+
+                <TextView
+                    android:id="@+id/tvPokeballPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSuperball"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onSuperballClick"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tvSuperball"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Superball"
+                    android:textSize="18sp"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/ivSuperball"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/great_ball"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="Superball"/>
+
+                <TextView
+                    android:id="@+id/tvSuperballPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/llUltraball"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onUltraballClick"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tvUltraball"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ultraball"
+                    android:textSize="18sp"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/ivUltraball"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ultra_ball"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="Ultraball"/>
+
+                <TextView
+                    android:id="@+id/tvUltraballPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1500"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llMasterball"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onMasterballClick"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tvMasterball"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masterball"
+                    android:textSize="18sp"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/ivMasterball"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/master_ball"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="Masterball"/>
+
+                <TextView
+                    android:id="@+id/tvMasterballPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100000"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="#E0E0E0">
+
+        <Button
+            android:id="@+id/btnPokedex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pokedex"/>
+
+        <Button
+            android:id="@+id/btnTrainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Trainer"/>
+
+        <Button
+            android:id="@+id/btnStore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Store"/>
+    </LinearLayout>
+
+</RelativeLayout>

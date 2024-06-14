@@ -1,0 +1,34 @@
+edu.url.salle.santiago.prieto.finalproject.app-material-1.11.0-0 C:\Users\victo\.gradle\caches\transforms-3\06ba7381495aa659fbb4af01b624b3f0\transformed\material-1.11.0\res
+edu.url.salle.santiago.prieto.finalproject.app-annotation-experimental-1.3.0-1 C:\Users\victo\.gradle\caches\transforms-3\0f48ed6dd9430e185a90005e8d35bb59\transformed\annotation-experimental-1.3.0\res
+edu.url.salle.santiago.prieto.finalproject.app-lifecycle-livedata-core-2.6.1-2 C:\Users\victo\.gradle\caches\transforms-3\155af231f97bd9094880718cf0653d81\transformed\lifecycle-livedata-core-2.6.1\res
+edu.url.salle.santiago.prieto.finalproject.app-core-runtime-2.2.0-3 C:\Users\victo\.gradle\caches\transforms-3\1a07fede60e5dc814a3791a4e99061ea\transformed\core-runtime-2.2.0\res
+edu.url.salle.santiago.prieto.finalproject.app-lifecycle-runtime-2.6.1-4 C:\Users\victo\.gradle\caches\transforms-3\1a8d1ac82ddd1ee1f7c67a8c0ff13b8a\transformed\lifecycle-runtime-2.6.1\res
+edu.url.salle.santiago.prieto.finalproject.app-appcompat-1.6.1-5 C:\Users\victo\.gradle\caches\transforms-3\255ee6509e7b34b0eab0a5f3ad1821a0\transformed\appcompat-1.6.1\res
+edu.url.salle.santiago.prieto.finalproject.app-appcompat-resources-1.6.1-6 C:\Users\victo\.gradle\caches\transforms-3\3047357b3aa01d31255aab349400f089\transformed\appcompat-resources-1.6.1\res
+edu.url.salle.santiago.prieto.finalproject.app-lifecycle-process-2.6.1-7 C:\Users\victo\.gradle\caches\transforms-3\4387fe770fbf242b79430c6013e496b0\transformed\lifecycle-process-2.6.1\res
+edu.url.salle.santiago.prieto.finalproject.app-startup-runtime-1.1.1-8 C:\Users\victo\.gradle\caches\transforms-3\5f6bf9485c25004337208dd2e605ca73\transformed\startup-runtime-1.1.1\res
+edu.url.salle.santiago.prieto.finalproject.app-drawerlayout-1.1.1-9 C:\Users\victo\.gradle\caches\transforms-3\662844479ba3cb406e5015f16e795f37\transformed\drawerlayout-1.1.1\res
+edu.url.salle.santiago.prieto.finalproject.app-savedstate-1.2.1-10 C:\Users\victo\.gradle\caches\transforms-3\6a34edf09b2f377fe8f3713b974aa59e\transformed\savedstate-1.2.1\res
+edu.url.salle.santiago.prieto.finalproject.app-activity-1.8.0-11 C:\Users\victo\.gradle\caches\transforms-3\70d38b18bc684028ca5b175bc64087a2\transformed\activity-1.8.0\res
+edu.url.salle.santiago.prieto.finalproject.app-recyclerview-1.1.0-12 C:\Users\victo\.gradle\caches\transforms-3\8149b21e7c3f7549cc2369df4c4760b8\transformed\recyclerview-1.1.0\res
+edu.url.salle.santiago.prieto.finalproject.app-transition-1.2.0-13 C:\Users\victo\.gradle\caches\transforms-3\a1215f83a2f4147d5ea098fc49b283f4\transformed\transition-1.2.0\res
+edu.url.salle.santiago.prieto.finalproject.app-core-ktx-1.9.0-14 C:\Users\victo\.gradle\caches\transforms-3\a52fa36d7fbc60c9d42a5a1b41551a28\transformed\core-ktx-1.9.0\res
+edu.url.salle.santiago.prieto.finalproject.app-viewpager2-1.0.0-15 C:\Users\victo\.gradle\caches\transforms-3\b735944a67d14e1479e96fcb10ab58e0\transformed\viewpager2-1.0.0\res
+edu.url.salle.santiago.prieto.finalproject.app-emoji2-views-helper-1.2.0-16 C:\Users\victo\.gradle\caches\transforms-3\bb5f36d98b4380ebc0dd13064c73404b\transformed\emoji2-views-helper-1.2.0\res
+edu.url.salle.santiago.prieto.finalproject.app-emoji2-1.2.0-17 C:\Users\victo\.gradle\caches\transforms-3\bdb97ac6e7a70365cb6ec7da8cd46edd\transformed\emoji2-1.2.0\res
+edu.url.salle.santiago.prieto.finalproject.app-profileinstaller-1.3.0-18 C:\Users\victo\.gradle\caches\transforms-3\be17410f86d846d0335dd00c03077914\transformed\profileinstaller-1.3.0\res
+edu.url.salle.santiago.prieto.finalproject.app-core-1.9.0-19 C:\Users\victo\.gradle\caches\transforms-3\c6ca2739189f4bff0dc8026c1a66f453\transformed\core-1.9.0\res
+edu.url.salle.santiago.prieto.finalproject.app-lifecycle-livedata-2.6.1-20 C:\Users\victo\.gradle\caches\transforms-3\d3e22d7722f58ea3970faac915f7a134\transformed\lifecycle-livedata-2.6.1\res
+edu.url.salle.santiago.prieto.finalproject.app-lifecycle-viewmodel-2.6.1-21 C:\Users\victo\.gradle\caches\transforms-3\d6446b787a7c6119bc4d9940844d6df7\transformed\lifecycle-viewmodel-2.6.1\res
+edu.url.salle.santiago.prieto.finalproject.app-constraintlayout-2.1.4-22 C:\Users\victo\.gradle\caches\transforms-3\db05cb4439177de90ca5e60d021cb315\transformed\constraintlayout-2.1.4\res
+edu.url.salle.santiago.prieto.finalproject.app-fragment-1.3.6-23 C:\Users\victo\.gradle\caches\transforms-3\db6fd4aee26519eb29f1a3e6a81a923c\transformed\fragment-1.3.6\res
+edu.url.salle.santiago.prieto.finalproject.app-cardview-1.0.0-24 C:\Users\victo\.gradle\caches\transforms-3\e45cea6510d247b5355db24ce110e2ff\transformed\cardview-1.0.0\res
+edu.url.salle.santiago.prieto.finalproject.app-coordinatorlayout-1.1.0-25 C:\Users\victo\.gradle\caches\transforms-3\e9434b88413b6df990050cf049544395\transformed\coordinatorlayout-1.1.0\res
+edu.url.salle.santiago.prieto.finalproject.app-lifecycle-viewmodel-savedstate-2.6.1-26 C:\Users\victo\.gradle\caches\transforms-3\ed51344b48602ec407484f14bb8891eb\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+edu.url.salle.santiago.prieto.finalproject.app-pngs-27 C:\Users\victo\OneDrive\Escritorio\2o\PrPr2\zzz FINAL PROJECT\app\build\generated\res\pngs\debug
+edu.url.salle.santiago.prieto.finalproject.app-resValues-28 C:\Users\victo\OneDrive\Escritorio\2o\PrPr2\zzz FINAL PROJECT\app\build\generated\res\resValues\debug
+edu.url.salle.santiago.prieto.finalproject.app-packageDebugResources-29 C:\Users\victo\OneDrive\Escritorio\2o\PrPr2\zzz FINAL PROJECT\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+edu.url.salle.santiago.prieto.finalproject.app-packageDebugResources-30 C:\Users\victo\OneDrive\Escritorio\2o\PrPr2\zzz FINAL PROJECT\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+edu.url.salle.santiago.prieto.finalproject.app-debug-31 C:\Users\victo\OneDrive\Escritorio\2o\PrPr2\zzz FINAL PROJECT\app\build\intermediates\merged_res\debug\mergeDebugResources
+edu.url.salle.santiago.prieto.finalproject.app-debug-32 C:\Users\victo\OneDrive\Escritorio\2o\PrPr2\zzz FINAL PROJECT\app\src\debug\res
+edu.url.salle.santiago.prieto.finalproject.app-main-33 C:\Users\victo\OneDrive\Escritorio\2o\PrPr2\zzz FINAL PROJECT\app\src\main\res

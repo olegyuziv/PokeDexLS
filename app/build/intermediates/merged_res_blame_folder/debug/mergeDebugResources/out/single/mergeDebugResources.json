@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/xml_backup_rules.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/xml_data_extraction_rules.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/layout_item_pokemon.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/layout/item_pokemon.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/layout_pokedex_specific.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/layout/pokedex_specific.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/drawable_great_ball.png.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/drawable/great_ball.png"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/drawable_ultra_ball.png.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/drawable/ultra_ball.png"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/layout_trainer.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/layout/trainer.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/layout_pokedex.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/layout/pokedex.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/layout_store.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/layout/store.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/drawable_loading.png.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/drawable/loading.png"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/drawable_master_ball.png.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/drawable/master_ball.png"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.url.salle.santiago.prieto.finalproject.app-debug-31:/drawable_poke_ball.png.flat",
+        "source": "edu.url.salle.santiago.prieto.finalproject.app-main-33:/drawable/poke_ball.png"
+    }
+]

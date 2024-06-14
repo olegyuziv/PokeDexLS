@@ -1,0 +1,6 @@
+edu.url.salle.santiago.prieto.finalproject.test.app-annotation-experimental-1.3.0-0 C:\Users\santi\.gradle\caches\transforms-3\0f48ed6dd9430e185a90005e8d35bb59\transformed\annotation-experimental-1.3.0\res
+edu.url.salle.santiago.prieto.finalproject.test.app-core-1.5.0-1 C:\Users\santi\.gradle\caches\transforms-3\a19432cddeeb3c9e5c80f1391431d44c\transformed\core-1.5.0\res
+edu.url.salle.santiago.prieto.finalproject.test.app-androidTest-2 C:\Users\santi\Desktop\LaSalle\Year 2\PrPr2\Projects\zzz FINAL PROJECT\app\build\generated\res\resValues\androidTest\debug
+edu.url.salle.santiago.prieto.finalproject.test.app-mergeDebugAndroidTestResources-3 C:\Users\santi\Desktop\LaSalle\Year 2\PrPr2\Projects\zzz FINAL PROJECT\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+edu.url.salle.santiago.prieto.finalproject.test.app-mergeDebugAndroidTestResources-4 C:\Users\santi\Desktop\LaSalle\Year 2\PrPr2\Projects\zzz FINAL PROJECT\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+edu.url.salle.santiago.prieto.finalproject.test.app-debugAndroidTest-5 C:\Users\santi\Desktop\LaSalle\Year 2\PrPr2\Projects\zzz FINAL PROJECT\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
